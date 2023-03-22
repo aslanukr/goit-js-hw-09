@@ -29,7 +29,7 @@ function handleFormSubmitBtn(event) {
       });
   }
 
-  form.reset();
+  refs.formEl.reset();
 }
 
 function createPromise(position, delay) {
