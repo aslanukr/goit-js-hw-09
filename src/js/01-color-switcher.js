@@ -4,6 +4,7 @@ const refs = {
 };
 
 let timerId = null;
+refs.stopBtn.setAttribute('disabled', '');
 
 refs.startBtn.addEventListener('click', () => {
   startColorSwitcher(), 1000;
